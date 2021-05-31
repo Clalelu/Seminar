@@ -5,7 +5,7 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "Clara"
+    "text": "Luleich"
   },
   "text": {
     "more": "Pädagogische Psychologie Seminar \"Selbstkonzept, Motivation und Erfolg\"",
@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "Verbindungen",
-    "colorLabel": "Inhaltsbereich",
+    "colorLabel": "Inhaltsbereiche",
     "nodeLabel": "Konzepte"
   },
   "features": {
@@ -24,26 +24,27 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "false"
   },
   "sigma": {
     "drawingProperties": {
-      "defaultEdgeType": "curve",
+      "defaultEdgeType": "line",
       "defaultHoverLabelBGColor": "#002147",
       "defaultLabelBGColor": "#ddd",
-      "activeFontStyle": "bold",
+      "activeFontStyle": "regular",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 4,
       "defaultLabelHoverColor": "#fff",
-      "fontStyle": "bold",
-      "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "fontStyle": "regular",
+      "hoverFontStyle": "regular",
+	  "labelSize": "proportional",
+	  "labelSizeRatio": 4
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxEdgeSize":1,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 0.5,
+      "maxNodeSize": 10
     },
     "mouseProperties": {
       "maxRatio": 20,
@@ -51,3 +52,7 @@
     }
   }
 }
+
+
+
+
